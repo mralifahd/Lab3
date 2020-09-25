@@ -36,6 +36,12 @@ public class AddressBook {
      * @param args
      */
     public static void main(String[] args) {
+        AddressBook book = new AddressBook();
+        BuddyInfo buddy = new BuddyInfo();
+
+        book.addBuddy(buddy);
+        book.removeBuddy(buddy);
+
         System.out.println("Address Book: ");
     }
 }

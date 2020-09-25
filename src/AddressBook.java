@@ -9,7 +9,7 @@ public class AddressBook {
 
     /**
      *
-     * Adds BuddyInfo object from Address Book
+     * Adds BuddyInfo object to Address Book
      *
      * @param b
      */
@@ -19,6 +19,7 @@ public class AddressBook {
 
     /**
      *
+     * Removes BuddyInfo object from Address Book
      * @param b
      */
     public void removeBuddy(BuddyInfo b) {
@@ -34,14 +35,6 @@ public class AddressBook {
      * @param args
      */
     public static void main(String[] args) {
-        AddressBook booker = new AddressBook();
-        BuddyInfo buddy = new BuddyInfo();
-
-        booker.addBuddy(buddy);
-
         System.out.println("Address Book: ");
-
-        booker.removeBuddy(buddy);
-
     }
 }

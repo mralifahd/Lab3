@@ -34,14 +34,14 @@ public class AddressBook {
      * @param args
      */
     public static void main(String[] args) {
+        AddressBook booker = new AddressBook();
         BuddyInfo buddy = new BuddyInfo();
 
-        AddressBook book = new AddressBook();
-        book.addBuddy(buddy);
+        booker.addBuddy(buddy);
 
         System.out.println("Address Book: ");
 
-        book.removeBuddy(buddy);
+        booker.removeBuddy(buddy);
 
     }
 }

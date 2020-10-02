@@ -43,6 +43,6 @@ public class AddressBook {
         book.removeBuddy(buddy);
 
         System.out.println("Address Book:");
-        //test
+        //testing editing on website
     }
 }

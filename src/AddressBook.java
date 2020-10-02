@@ -31,6 +31,8 @@ public class AddressBook {
         }
     }
 
+    public void newMethod() {}
+
     /**
      *
      * @param args
